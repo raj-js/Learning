@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  migrationindocker:
+    image: ${DOCKER_REGISTRY-}migrationindocker
+    build:
+      context: .
+      dockerfile: MigrationInDocker/Dockerfile
