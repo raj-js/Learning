@@ -16,10 +16,25 @@ namespace LearningPolly
             //Console.WriteLine("---------------------------------------");
             //LearningRetry.RetryForever();
 
+            //Console.WriteLine("---------------------------------------");
+            //Console.WriteLine(nameof(LearningRetry.WaitAndRetry));
+            //Console.WriteLine("---------------------------------------");
+            //LearningRetry.WaitAndRetry();
+
+            //Console.WriteLine("---------------------------------------");
+            //Console.WriteLine(nameof(LearningRetry.WaitAndRetryForever));
+            //Console.WriteLine("---------------------------------------");
+            //LearningRetry.WaitAndRetryForever();
+
+            //Console.WriteLine("---------------------------------------");
+            //Console.WriteLine(nameof(LearningCircuitBreaker.TryBasic));
+            //Console.WriteLine("---------------------------------------");
+            //LearningCircuitBreaker.TryBasic();
+
             Console.WriteLine("---------------------------------------");
-            Console.WriteLine(nameof(LearningRetry.WaitAndRetry));
+            Console.WriteLine(nameof(LearningCircuitBreaker.TryAdvanced));
             Console.WriteLine("---------------------------------------");
-            LearningRetry.WaitAndRetry();
+            LearningCircuitBreaker.TryAdvanced();
 
             Console.ReadKey();
         }
