@@ -31,10 +31,10 @@ namespace LearningPolly
             //Console.WriteLine("---------------------------------------");
             //LearningCircuitBreaker.TryBasic();
 
-            //Console.WriteLine("---------------------------------------");
-            //Console.WriteLine(nameof(LearningCircuitBreaker.TryAdvanced));
-            //Console.WriteLine("---------------------------------------");
-            //LearningCircuitBreaker.TryAdvanced();
+            Console.WriteLine("---------------------------------------");
+            Console.WriteLine(nameof(LearningCircuitBreaker.TryAdvanced));
+            Console.WriteLine("---------------------------------------");
+            LearningCircuitBreaker.TryAdvanced();
 
             Console.ReadKey();
         }
