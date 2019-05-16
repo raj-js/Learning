@@ -18,12 +18,12 @@ message SimpleResponse {
 message OtherReq {
 	string a = 1;
 	int32 b = 2;
-	bool c = 3;
+	bool c = 3; 
 
 	repeated string d = 4;
 }
 
-message OtherResp {
+message OtherResp { 
 	int32 code = 1;
 	string msg = 2;
 	string data = 3;

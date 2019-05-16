@@ -15,7 +15,7 @@ message SimpleResponse {
     string d = 1;
 }
 
-message OtherReq {
+message OtherReq { 
     string a = 1;
     int32 b = 2;
     bool c = 3;
