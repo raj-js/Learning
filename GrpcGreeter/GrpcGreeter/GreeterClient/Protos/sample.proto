@@ -1,0 +1,30 @@
+﻿syntax = "proto3";
+
+package Sample;
+
+service Simple {
+	rpc DoSimpleThing (SimpleRequest) returns (SimpleResponse) {};
+	rpc DoOtherThing (OtherReq) returns (OtherResp) {};
+}
+
+message SimpleRequest {
+	string arg = 1;
+}
+
+message SimpleResponse {
+	string d = 1;
+}
+
+message OtherReq {
+	string a = 1;
+	int32 b = 2;
+	bool c = 3;
+
+	repeated string d = 4;
+}
+
+message OtherResp {
+	int32 code = 1;
+	string msg = 2;
+	string data = 3;
+}
