@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceMonitoring", "PerformanceMonitoring\PerformanceMonitoring.csproj", "{1806521D-3F67-4E4C-8828-B4D42B75CAE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceMonitoring.Win", "PerformanceMonitoring.Win\PerformanceMonitoring.Win.csproj", "{4F858F57-A0B4-4452-AAD0-C9EFA3B3B76A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1806521D-3F67-4E4C-8828-B4D42B75CAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1806521D-3F67-4E4C-8828-B4D42B75CAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1806521D-3F67-4E4C-8828-B4D42B75CAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1806521D-3F67-4E4C-8828-B4D42B75CAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F858F57-A0B4-4452-AAD0-C9EFA3B3B76A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F858F57-A0B4-4452-AAD0-C9EFA3B3B76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F858F57-A0B4-4452-AAD0-C9EFA3B3B76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F858F57-A0B4-4452-AAD0-C9EFA3B3B76A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D131A73-D2CD-44BA-8361-DE24F8DD78CE}
+	EndGlobalSection
+EndGlobal
