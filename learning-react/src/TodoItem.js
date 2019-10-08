@@ -8,32 +8,26 @@ class TodoItem extends Component {
         this.handleClick = this.handleClick.bind(this)
     }
 
-    render() { 
-        return (  
+    render() {
+        return (
             <li>
-                {this.props.date}
-                <span dangerouslySetInnerHTML={{__html:this.props.content}}></span>
-                <button onClick={ this.handleClick }>Delete</button>
+                {this.props.todo.date}
+                <span dangerouslySetInnerHTML={{ __html: this.props.todo.content }}></span>
+                {this.props.todo.state}
+                <button onClick={this.handleClick}>Delete</button>
             </li>
         );
     }
 
     handleClick(e) {
-        this.props.onDel(this.props.index)
+        this.props.onDel(this.props.todo.id)
     }
 }
 
 // props 数据校验
 TodoItem.propTypes = {
-    date: PropTypes.string.isRequired,
-    content: PropTypes.string,
-    index: PropTypes.number,
+    todo: PropTypes.object,
     onDel: PropTypes.func
 }
 
-// props default
-TodoItem.defaultProps = {
-    date: new Date().toDateString()
-}
- 
 export default TodoItem;
